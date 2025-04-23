@@ -45,6 +45,7 @@ public class LanguageButton : Gtk.MenuButton {
         ind.clicked.connect (() => { lang.save_pref_language ("ind") ; }) ;
 
         menu_list.add (eng) ;
+        menu_list.add (spa) ;
         menu_list.add (chi_sim) ;
         menu_list.add (jpn) ;
         menu_list.add (nld) ;
